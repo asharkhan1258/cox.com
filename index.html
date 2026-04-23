@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cox Clone</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar d-lg-flex  d-none">
+  <div class="container d-flex justify-content-between">
+    <div>
+      <span class="fw-bold">Residential</span> |
+      <span>Cox Business</span> |
+      <span>Español</span>
+    </div>
+    <div>Contact Us</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom py-2">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="logo" width="80">
+    </a>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+
+      <!-- Menu -->
+      <ul class="navbar-nav mx-md-auto text-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Internet <i class="fa fa-angle-down ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mobile <i class="fa fa-angle-down ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TV & Home <i class="fa fa-angle-down ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support <i class="fa fa-angle-down ms-1"></i></a>
+        </li>
+      </ul>
+
+      <!-- Icons -->
+      <div class="icons d-lg-flex  d-none justify-content-center justify-content-md-end gap-3 mt-3 mt-md-0">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-shopping-cart"></i>
+        <i class="fa fa-user"></i>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<div class="green-line"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+
+      <!-- LEFT -->
+      <div class="col-lg-6">
+        <p class="welcome">WELCOME TO COX</p>
+
+        <h1 class="hero-title">
+          Services to keep <br>
+          you <span>a step ahead</span>
+        </h1>
+
+        <p class="hero-text">
+          Shop fiber-powered internet speeds and mobile that runs on the network with unbeatable 5G reliability.
+          <i class="fa fa-info-circle"></i>
+        </p>
+
+        <small>
+          Cox Internet is powered by fiber and connected to the premises via coaxial cable.
+        </small>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-lg-5 text-start mt-lg-0 mt-5">
+        <div class="img-box">
+          <img src="https://assets.cox.com/is/image/coxcommunications/family-sitting-on-couch-in-living-room-looking-at-mobile-devices-with-blue-green-box-in-bg?ts=1769098920175&$teaser$&dpr=off" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM -->
+<div class="bottom-text fw-bold">
+  <a href="#">Sign in</a>
+  or enter your address to check your best available price and speeds
+</div>
+
+<div class="container my-4">
+  <div class="address-box d-flex align-items-center">
+
+    <!-- ICON + INPUT -->
+    <div class="input-wrapper d-flex align-items-center flex-grow-1">
+      <i class="fa-solid fa-location-dot location-icon"></i>
+      <input type="text"
+        class="form-control border-0 shadow-none"
+        placeholder="Street Address, Apt/Unit, Zip Code">
+    </div>
+
+    <!-- BUTTON -->
+    <button class="btn check-btn">
+      Check availability
+    </button>
+
+  </div>
+</div>
+
+
+<section class="category-section py-5">
+  <div class="container">
+
+    <!-- HEADING -->
+    <h2 class="section-title mb-4">Let's find what you need</h2>
+
+    <!-- CARDS -->
+    <div class="row g-3 mt-5">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon green">
+            <i class="fa-solid fa-mobile-screen"></i>
+          </div>
+          <p>Mobile phones</p>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon green">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <p>Mobile plans</p>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon blue">
+            <i class="fa-solid fa-wifi"></i>
+          </div>
+          <p>All internet plans</p>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon blue">
+            <i class="fa-solid fa-signal"></i>
+          </div>
+          <p>Fastest internet plans</p>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon blue">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <p>Popular bundles</p>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="col-md-4 col-lg-2 col-12">
+        <div class="category-card text-center">
+          <div class="icon blue">
+            <i class="fa-solid fa-tv"></i>
+          </div>
+          <p>TV & streaming</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bundle-section py-5">
+  <div class="container ">
+    <div class="row align-items-center g-0">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-5">
+        <div class="bundle-img"></div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-7">
+        <div class="bundle-card">
+
+          <p class="eyebrow">Cox Internet & Mobile bundles</p>
+
+          <h2 class="bundle-title">
+            Bundle & save $120/year
+          </h2>
+
+          <p class="bundle-desc">
+            Combine internet and mobile for our best deals and a Price Lock Guarantee up to 5 years.*
+          </p>
+
+          <a href="#" class="btn bundle-btn">
+            Shop bundles
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTNOTE -->
+    <p class="bundle-note mt-5">
+      *500 Mbps or 1 Gbps speeds with at least 1 unlimited Cox Mobile line required for 3-year lock; 
+      2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. Taxes and fees excluded.
+    </p>
+
+  </div>
+</section>
+
+<section class="offer-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-0">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6">
+        <div class="offer-card">
+
+          <!-- BADGE -->
+          <span class="offer-badge">Special offer</span>
+
+          <!-- TITLE -->
+          <h2 class="offer-title">
+            Get the TCL 50 LE for just $19.99<span class="small-circle">ø</span>
+          </h2>
+
+          <!-- DESC -->
+          <p class="offer-desc">
+            Bring home a great device at a great price— with instant savings. Offer ends 7/8.
+          </p>
+
+          <!-- BUTTON -->
+          <a href="#" class="btn offer-btn">
+            Shop deal
+          </a>
+
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6">
+        <div class="offer-img"></div>
+      </div>
+
+    </div>
+  </div>
+</section>  
+
+<section class="gig-section py-5">
+  <div class="container">
+    <p class="fw-bold">COX SERVICE OFFERINGS</p>
+    <div class="row align-items-center g-0">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-5">
+        <div class="gig-img"></div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-7">
+        <div class="gig-card">
+
+          <!-- EYEBROW -->
+          <p class="gig-eyebrow">
+            MULTI GIG INTERNET + COX MOBILE
+          </p>
+
+          <!-- TITLE -->
+          <h2 class="gig-title">
+            Do more with Multi GIG internet
+          </h2>
+
+          <!-- DESC -->
+          <p class="gig-desc">
+            Score a 5-year Price Lock Guarantee when you add Cox Mobile to your Multi GIG internet plan. 
+            Plus, unlimited data and wall-to-wall Panoramic Wifi included.
+          </p>
+
+          <p class="gig-speed">
+            2 Gbps download speeds.
+          </p>
+
+          <!-- BUTTON -->
+          <a href="#" class="btn gig-btn">
+            Lock it in
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTNOTE -->
+    <p class="gig-note mt-3">
+      2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. 
+      With at least 1 unlimited Cox Mobile line plus internet speeds of 2 Gpbs. 
+      Taxes and fees excluded.
+    </p>
+
+  </div>
+</section>
+
+
+<section class="three-card-section py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- CARD 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="three-card text-center">
+
+          <div class="card-icon">
+            <i class="fa-solid fa-mobile-screen"></i>
+          </div>
+
+          <p class="card-eyebrow">COX MOBILE & INTERNET</p>
+
+          <h4 class="card-title">
+            Bundle mobile & internet to save <br>
+            <span>starting at </span><strong>$70/mo.</strong>
+          </h4>
+
+          <a href="#" class="btn card-btn">Shop mobile plans</a>
+
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="three-card text-center">
+
+          <div class="card-icon">
+            <i class="fa-solid fa-tv"></i>
+          </div>
+
+          <p class="card-eyebrow">COX TV & STREAMING</p>
+
+          <h4 class="card-title">
+            Everything worth watching, one place <br>
+            <span>starting at </span><strong>$20/mo</strong>
+          </h4>
+
+          <a href="#" class="btn card-btn">Shop TV & streaming</a>
+
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="three-card text-center">
+
+          <div class="card-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+
+          <p class="card-eyebrow">COX HOME PHONE</p>
+
+          <h4 class="card-title">
+            Crystal-clear, reliable home phone service <br>
+            <span>starting at </span><strong>$20/mo</strong>
+          </h4>
+
+          <a href="#" class="btn card-btn">Shop home phone</a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about-section py-5">
+  <div class="container text-center">
+
+    <!-- HEADER -->
+    <h5 class="about-eyebrow">ABOUT OUR COMPANY</h5>
+    <h2 class="about-title">Powering connections that matter</h2>
+    <p class="about-desc">
+      Learn more about how we keep people connected, both online and out in the world.
+    </p>
+
+    <!-- CARDS -->
+    <div class="row g-4 mt-4">
+
+      <!-- CARD 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="about-card">
+          <div class="about-img img1"></div>
+          <div class="about-content">
+            <h5>Trusted for over 60 years</h5>
+            <p>
+              Over 7 million homes and businesses count on us—including mobile plans that runs on the network with unbeatable 5G reliability.
+            </p>
+            <a href="#" class="btn about-btn">Meet Cox</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="about-card">
+          <div class="about-img img2"></div>
+          <div class="about-content">
+            <h5>Here for those who need us most</h5>
+            <p>
+              We already deliver affordable internet options to over 1 million qualifying households. Find out more about how our people are giving back.
+            </p>
+            <a href="#" class="btn about-btn">About engagement</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="about-card">
+          <div class="about-img img3"></div>
+          <div class="about-content">
+            <h5>We are bettering our world</h5>
+            <p>
+              We've invested over $100 million in sustainability projects. See what else we’re working on.
+            </p>
+            <a href="#" class="btn about-btn">Our sustainability</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="faq-section py-5">
+  <div class="container px-md-5 px-3 ">
+
+    <!-- HEADING -->
+    <h2 class="text-center mb-4">Frequently asked questions</h2>
+
+    <!-- ACCORDION -->
+    <div class="accordion" id="faqAccordion">
+
+      <!-- ITEM 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            What types of services does Cox offer?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Cox provides four key services:
+            <ul>
+              <li>High-speed internet plans</li>
+              <li>Mobile plans</li>
+              <li>TV & streaming plans</li>
+              <li>Home phone plans</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+            Are Cox Internet and services available in my area?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Click here and enter your address to check availability in your area.
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+            How much does Cox Internet cost?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Plans start at $30/month and go up to 2 GIG speeds.
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+            Does Cox have unlimited internet?
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, unlimited data is available with select plans or bundles.
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+            What’s included in a typical Cox Internet bundle?
+          </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Bundles include internet, mobile, and optional services with savings and price lock options.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<div class="container">
+    <h6 class="fw-bold">Cox Mobile</h6>
+    <p class="pb-4">5G capable devices required to access the 5G network. Coverage not available in all areas. Cox Mobile runs on the network with unbeatable 5G reliability as measured by Ookla, LLC in the U.S., 2H 2025. Results may vary. Not an endorsement. Wifi not tested.</p>
+    <p>Cox Internet is powered by fiber and connected to the premises via coaxial cable.</p>
+</div>
+
+<footer class="bg-light pt-5 pb-3">
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Shop -->
+      <div class="col-md-2 col-12">
+        <h5>Shop</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Internet</a></li>
+          <li><a href="#">Cox Mobile</a></li>
+          <li><a href="#">TV</a></li>
+          <li><a href="#">Smart Home</a></li>
+          <li><a href="#">Home Phone</a></li>
+          <li><a href="#">Bundles</a></li>
+        </ul>
+      </div>
+
+      <!-- Common Tasks -->
+      <div class="col-md-2 col-12">
+        <h5>Common Tasks</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Pay Bill</a></li>
+          <li><a href="#">Manage Account</a></li>
+          <li><a href="#">Check Email</a></li>
+          <li><a href="#">Watch TV</a></li>
+          <li><a href="#">Apps</a></li>
+        </ul>
+      </div>
+
+      <!-- Help -->
+      <div class="col-md-2 col-12">
+        <h5>Help</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Find Store</a></li>
+        </ul>
+      </div>
+
+      <!-- About -->
+      <div class="col-md-2 col-12">
+        <h5>About</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Learn About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+
+      <!-- More -->
+      <div class="col-md-2 col-12">
+        <h5>More</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">My Connection</a></li>
+          <li><a href="#">Refer a Friend</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div class="col-md-2 col-12">
+        <h5>Legal</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Policy</a></li>
+          <li><a href="#">FCC File</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Bottom -->
+    <div class="text-center small">
+      <p>
+© 1998-2026 Cox Communications,Inc.
+</p>
+      <a href="#" class="text-decoration-none text-dark">
+Limit the Use of My Sensitive Personal Information (CA Consumers)</a> <br>
+      <a href="#" class="text-decoration-none text-dark">
+Do Not Sell or Share My Personal Information
+</a>
+    </div>
+
+  </div>
+</footer>
+
+<!-- BOOTSTRAP JS (IMPORTANT) -->
+
+</body>
+</html>
