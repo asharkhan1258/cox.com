@@ -34,7 +34,6 @@ body {
   background: linear-gradient(135deg,#00aaf4,#00bfa4 57%,#00d258);
 }
 
-/* HERO */
 .hero {
   padding: 80px 0;
 }
@@ -138,15 +137,13 @@ body {
   background: #0056b3;
 }
 
+
+
 .category-section {
   background: #fff;
 }
 
-/* HEADING */
-.section-title {
-  font-size: 36px;
-  font-weight: 700;
-}
+
 
 /* CARD */
 .category-card {
@@ -196,85 +193,55 @@ body {
   background: #fff;
 }
 
-/* IMAGE */
-.bundle-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  min-height: 400px;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-image: url("https://assets.cox.com/is/image/cox/top-view-of-table-with-laptop-mobile-device-coffee-and-books-save-120-text-top-left-vert?$teaser$");
-  background-size: cover;
-  background-position: top;
-}
 
 /* CARD */
 .bundle-card {
-  background: black; /* dark grey like screenshot */
-  color: #fff;
-  padding: 40px;
-  height: 400px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-/* TEXT */
-.eyebrow {
-  font-size: 14px;
-  text-transform: uppercase;
+/* LEFT SIDE */
+.left-side {
+  position: relative;
+  flex: 1;
+}
+
+.left-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
   opacity: 0.8;
 }
 
-.bundle-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin: 10px 0;
+/* TEXT OVER IMAGE */
+
+/* RIGHT SIDE */
+.right-side {
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
 }
 
-.bundle-desc {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #ddd;
+.right-side h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.right-side p {
+  color: #ccc;
+  margin-top: 10px;
 }
 
 /* BUTTON */
-.bundle-btn {
-  background: #fff;
-  color: #000;
-  padding: 12px 20px;
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
   font-weight: 600;
-  border-radius: 6px;
-  width: fit-content;
 }
 
-.bundle-btn:hover {
-  background: #ddd;
-}
-
-/* FOOTNOTE */
-.bundle-note {
-  font-size: 16px;
-  color: #666;
-}
-.offer-section {
-  background: #fff;
-}
-
-/* CARD */
-.offer-card {
-  background: #dff9ea; /* mint green */
-  padding: 40px;
-  min-height: 400px;
-   border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 /* BADGE */
 .offer-badge {
@@ -288,125 +255,109 @@ body {
   border-radius: 4px;
 }
 
-/* TITLE */
-.offer-title {
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.small-circle {
-  font-size: 20px;
-  margin-left: 5px;
-}
-
-/* DESC */
-.offer-desc {
-  margin: 15px 0;
-  font-size: 25px;
-  color: #333;
-}
-
-/* BUTTON */
-.offer-btn {
-  background: #00a846;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 30px;
-  font-weight: 600;
-  width: fit-content;
-}
-
-.offer-btn:hover {
-  background: #0056b3;
-}
-
-/* IMAGE */
-.offer-img {
-  width: 100%;
-  height: 100%;
-   border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  min-height: 400px;
-  background-image: url("https://assets.cox.com/is/image/cox/tcl-50-le-in-black-silhouette-front-and-back-slanted-bubbles-and-alice-blue-bg-sq?$teaser$");
-  background-size: cover;
-  background-position: center;
-}
-
-
-.gig-section {
-  background: #fff;
-}
-
-/* IMAGE */
-.gig-img {
-  width: 100%;
-  height: 100%;
-  min-height: 460px;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-image: url("https://assets.cox.com/is/image/cox/woman-sitting-at-a-desk-in-a-living-room-and-using-laptop-at-home-428958187?$teaser$");
-  background-size: cover;
-  background-position: center;
-}
 
 /* CARD */
-.gig-card {
-  background: #eaf6ff; /* light blue */
-  padding: 40px;
+.bundle-card-2 {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* LEFT SIDE */
+.left-side-2 {
+  position: relative;
+  flex: 1;
+}
+
+.left-side-2 img {
+  width: 100%;
   height: 100%;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 
-/* TEXT */
-.gig-eyebrow {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
+
+
+/* RIGHT SIDE */
+.right-side-2 {
+  flex: 1;
+ background: #dff9ea;
+  color: black;
+  padding: 50px;
 }
 
-.gig-title {
-  font-size: 34px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.gig-desc {
-  font-size: 25px;
-  font-weight: 500;
-  color: #333;
-}
-
-.gig-speed {
-  font-size: 14px;
+.right-side-2 h2 {
+  font-size: 32px;
+  font-weight: bold;
   margin-top: 10px;
-  font-weight: 500;
+}
+
+.right-side-2 p {
+  color: black;
+  margin-top: 10px;
 }
 
 /* BUTTON */
-.gig-btn {
-  background: #285a93;
-  color: #fff;
-  padding: 12px 20px;
-  margin-top: 20px;
+.btn-2 {
+  padding: 10px 20px;
   border-radius: 30px;
+  border: none;
   font-weight: 600;
-  width: fit-content;
+  background-color: #00a846;
 }
 
-.gig-btn:hover {
-  background: #0056b3;
+
+
+/* CARD */
+.bundle-card-3 {
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-/* FOOTNOTE */
-.gig-note {
-  font-size: 16px;
-  color: #666;
-  margin-top: 30px;
+/* LEFT SIDE */
+.left-side-3 {
+  position: relative;
+  flex: 1;
 }
+
+.left-side-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+
+
+/* RIGHT SIDE */
+.right-side-3 {
+  flex: 1;
+ background: #eaf6ff;
+  color: black;
+  padding: 50px;
+}
+
+.right-side-3 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.right-side-3 p {
+  color: black;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.btn-3 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  background-color: #285a93;
+}
+
 
 
 /* CARD */
@@ -474,6 +425,7 @@ body {
   background: #007bff;
   color: #fff;
 }
+
 
 .about-section {
   background: #fff;
@@ -565,6 +517,7 @@ body {
   background: #ddd;
 }
 
+
 .faq-section {
   background: #fff;
 }
@@ -603,6 +556,7 @@ body {
 .accordion-button:not(.collapsed)::after {
   content: "-";
 }
+
 
 footer h5 {
   font-weight: 600;
@@ -629,683 +583,11 @@ footer hr {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-
-
-
-/* TOP BAR */
-.topbar {
-  background: #f2f2f2;
-  font-size: 14px;
-  padding: 6px 0;
-}
-
-/* NAVBAR */
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: #00a7e1;
-}
-
-.navbar-nav .nav-item {
-  margin-right: 20px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.icons i {
-  margin-left: 20px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-/* GREEN LINE */
-.green-line {
-  height: 8px;
-  background: linear-gradient(135deg,#00aaf4,#00bfa4 57%,#00d258);
-}
-
-/* HERO */
-.hero {
-  padding: 80px 0;
-}
-
-.welcome {
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #666;
-  font-weight: 600;
-}
-
-.hero-title {
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.hero-title span {
-  color: #00a7e1;
-}
-
-.hero-text {
-  font-size: 18px;
-  margin-top: 20px;
-  color: #444;
-}
-
-/* IMAGE BOX */
-.img-box {
-  position: relative;
-  display: inline-block;
-}
-
-.img-box img {
-  width: 100%;
-  
-  border-radius: 20px;
-}
-
-/* Gradient overlay */
-.img-box::before {
-  content: "";
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 85%;
-  height: 85%;
-  background: linear-gradient(135deg, #00bcd4, #009688);
-  border-radius: 20px;
-  z-index: -1;
-}
-
-/* BOTTOM TEXT */
-.bottom-text {
-  text-align: center;
-  padding: 20px;
-  border-top: 1px solid #ddd;
-  font-size: 16px;
-}
-
-.bottom-text a {
-  color: #007bff;
-  font-weight: 600;
-  text-decoration: underline;
-}
-.address-box {
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  padding: 8px;
-  background: #f4f8f9; /* light lilac like screenshot */
-}
-
-.input-wrapper {
-  background: none;
-  border-radius: 8px;
-  padding: 8px 12px;
-}
-
-.location-icon {
-  color: #666;
-  margin-right: 8px;
-  font-size: 18px;
-}
-
-.form-control:focus {
-  box-shadow: none;
-}
-
-/* BUTTON */
-.check-btn {
-  background: #285a93;
-  color: #fff;
-  border-radius: 50px;
-  padding: 12px 20px;
-  font-weight: 600;
-  margin-left: 10px;
-  white-space: nowrap;
-}
-
-.check-btn:hover {
-  background: #0056b3;
-}
-
-.category-section {
-  background: #fff;
-}
-
-/* HEADING */
-.section-title {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-/* CARD */
-.category-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px 10px;
-  border: 1px solid #eee;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.category-card:hover {
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  transform: translateY(-5px);
-}
-
-/* ICON */
-.icon {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 10px;
-  font-size: 20px;
-  color: #fff;
-}
-
-.icon.green {
-  background: #00a651;
-}
-
-.icon.blue {
-  background: #007bff;
-}
-
-/* TEXT */
-.category-card p {
-  font-weight: 600;
-  margin: 0;
-  margin-top: 30px;
-}
-
-
-.bundle-section {
-  background: #fff;
-}
-
-/* IMAGE */
-.bundle-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  min-height: 400px;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-image: url("https://assets.cox.com/is/image/cox/top-view-of-table-with-laptop-mobile-device-coffee-and-books-save-120-text-top-left-vert?$teaser$");
-  background-size: cover;
-  background-position: top;
-}
-
-/* CARD */
-.bundle-card {
-  background: black; /* dark grey like screenshot */
-  color: #fff;
-  padding: 40px;
-  height: 400px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* TEXT */
-.eyebrow {
-  font-size: 14px;
-  text-transform: uppercase;
-  opacity: 0.8;
-}
-
-.bundle-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.bundle-desc {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #ddd;
-}
-
-/* BUTTON */
-.bundle-btn {
-  background: #fff;
-  color: #000;
-  padding: 12px 20px;
-  font-weight: 600;
-  border-radius: 6px;
-  width: fit-content;
-}
-
-.bundle-btn:hover {
-  background: #ddd;
-}
-
-/* FOOTNOTE */
-.bundle-note {
-  font-size: 16px;
-  color: #666;
-}
-.offer-section {
-  background: #fff;
-}
-
-/* CARD */
-.offer-card {
-  background: #dff9ea; /* mint green */
-  padding: 40px;
-  min-height: 400px;
-   border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* BADGE */
-.offer-badge {
-  display: inline-block;
-  background: #ffbe00;
-  width: 120px;
-  padding: 6px 12px;
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  border-radius: 4px;
-}
-
-/* TITLE */
-.offer-title {
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.small-circle {
-  font-size: 20px;
-  margin-left: 5px;
-}
-
-/* DESC */
-.offer-desc {
-  margin: 15px 0;
-  font-size: 25px;
-  color: #333;
-}
-
-/* BUTTON */
-.offer-btn {
-  background: #00a846;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 30px;
-  font-weight: 600;
-  width: fit-content;
-}
-
-.offer-btn:hover {
-  background: #0056b3;
-}
-
-/* IMAGE */
-.offer-img {
-  width: 100%;
-  height: 100%;
-   border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  min-height: 400px;
-  background-image: url("https://assets.cox.com/is/image/cox/tcl-50-le-in-black-silhouette-front-and-back-slanted-bubbles-and-alice-blue-bg-sq?$teaser$");
-  background-size: cover;
-  background-position: center;
-}
-
-
-.gig-section {
-  background: #fff;
-}
-
-/* IMAGE */
-.gig-img {
-  width: 100%;
-  height: 100%;
-  min-height: 460px;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-image: url("https://assets.cox.com/is/image/cox/woman-sitting-at-a-desk-in-a-living-room-and-using-laptop-at-home-428958187?$teaser$");
-  background-size: cover;
-  background-position: center;
-}
-
-/* CARD */
-.gig-card {
-  background: #eaf6ff; /* light blue */
-  padding: 40px;
-  height: 100%;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* TEXT */
-.gig-eyebrow {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.gig-title {
-  font-size: 34px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.gig-desc {
-  font-size: 25px;
-  font-weight: 500;
-  color: #333;
-}
-
-.gig-speed {
-  font-size: 14px;
-  margin-top: 10px;
-  font-weight: 500;
-}
-
-/* BUTTON */
-.gig-btn {
-  background: #285a93;
-  color: #fff;
-  padding: 12px 20px;
-  margin-top: 20px;
-  border-radius: 30px;
-  font-weight: 600;
-  width: fit-content;
-}
-
-.gig-btn:hover {
-  background: #0056b3;
-}
-
-/* FOOTNOTE */
-.gig-note {
-  font-size: 16px;
-  color: #666;
-  margin-top: 30px;
-}
-
-
-/* CARD */
-.three-card {
-  background: #f4f8f9;
-  border-radius: 12px;
-  padding: 30px 30px;
-  height: 100%;
-  transition: 0.3s;
-}
-
-.three-card:hover {
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  transform: translateY(-5px);
-}
-
-/* ICON */
-.card-icon {
-  width: 70px;
-  height: 70px;
-  margin: 0 auto 15px;
-  border-radius: 12px;
-  background: #e9f2fb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  color: #007bff;
-}
-
-/* TEXT */
-.card-eyebrow {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
-.card-title {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 20px 0px;
-}
-
-.card-title span {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.card-title strong {
-  font-size: 20px;
-}
-
-/* BUTTON */
-.card-btn {
-  margin-top: 15px;
-  background: white;
-  color: #007bff;
-  padding: 10px 18px;
-  border-radius: 30px;
-  font-weight: 600;
-}
-
-.card-btn:hover {
-  background: #007bff;
-  color: #fff;
-}
-
-.about-section {
-  background: #fff;
-}
-
-/* HEADER */
-.about-eyebrow {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.about-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.about-desc {
-  color: #555;
-  max-width: 600px;
-  margin: auto;
-}
-
-/* CARD */
-.about-card {
-  border-radius: 12px;
-  overflow: hidden;
-  background: #fff;
-  transition: 0.3s;
-}
-
-.about-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-/* IMAGE */
-.about-img {
-  height: 220px;
-  background-size: cover;
-  background-position: center;
-}
-
-.img1 {
-  background-image: url("https://assets.cox.com/is/image/cox/cox-employee-shaking-hand-customer-holding-phone-in-cox-store?$teaser-image-three-up$");
-}
-
-.img2 {
-  background-image: url("https://assets.cox.com/is/image/cox/two-young-boys-in-classroom-sitting-at-desks-using-tablet-602868577?$teaser-image-three-up$");
-}
-
-.img3 {
-  background-image: url("https://assets.cox.com/is/image/cox/three-woman-cox-volunteers-smiling-and-picking-up-litter-for-community-beautification?$teaser-image-three-up$");
-}
-
-/* CONTENT */
-.about-content {
-  background: #1f4e79; /* river blue */
-  color: #fff;
-  padding: 25px;
-  min-height: 230px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.about-content h5 {
-  font-weight: 600;
-}
-
-.about-content p {
-  font-size: 16px;
-  padding: 20px 0px;
-}
-
-/* BUTTON */
-.about-btn {
-  background: #fff;
-  margin: auto;
-  color: #1f4e79;
-  padding: 10px 16px;
-  border-radius: 30px;
-  font-weight: 600;
-  width: fit-content;
-}
-
-.about-btn:hover {
-  background: #ddd;
-}
-
-.faq-section {
-  background: #fff;
-}
-
-/* ACCORDION STYLE */
-.accordion-item {
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-.accordion-button {
-  font-weight: 600;
-  font-size: 16px;
-  padding: 18px;
-  background: #fff;
-}
-
-.accordion-button:not(.collapsed) {
-  background: #f5f9ff;
-  color: #007bff;
-  box-shadow: none;
-}
-
-.accordion-body {
-  font-size: 15px;
-  color: #444;
-}
-
-/* REMOVE DEFAULT ICON */
-.accordion-button::after {
-  background-image: none;
-  content: "+";
-  font-size: 20px;
-}
-
-.accordion-button:not(.collapsed)::after {
-  content: "-";
-}
-
-footer h5 {
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-footer ul li {
-  margin-bottom: 6px;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #333;
-  
-}
-
-footer ul li a:hover {
-  color: #0d6efd;
-}
-
-footer hr {
-  margin: 20px 0;
-}
-
-    .about-title {
-      font-size: 26px;
-    }
-    
-    .about-img {
-      height: 180px;
-    }
-    .card-title {
-      font-size: 16px;
-    }
-    .gig-card {
-      padding: 25px;
-    }
-    
-    .gig-title {
-      font-size: 24px;
-    }
-    
-    .gig-img {
-      margin-bottom: 20px;
-    }
-    .offer-card {
-      padding: 25px;
-    }
-    
-    .offer-title {
-      font-size: 24px;
-    }
-    
-    .offer-img {
-      margin-top: 20px;
-    }
-    .bundle-card {
-      padding: 25px;
-    }
-    
-    .bundle-title {
-      font-size: 26px;
-    }
-    .section-title {
-        font-size: 26px;
-    }
-  .hero-title {
-    font-size: 34px;
+  .overlay-text h1 {
+    font-size: 32px;
   }
 
-  .img-box {
-    margin-top: 30px;
+  .right-side {
+    padding: 30px;
   }
-
-
 }

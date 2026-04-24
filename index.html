@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Cox Clone</title>
-
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<!-- CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- TOP BAR -->
+    <!-- TOP BAR -->
 <div class="topbar d-lg-flex  d-none">
   <div class="container d-flex justify-content-between">
     <div>
@@ -32,7 +27,7 @@
   <div class="container">
 
     <!-- Logo -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/index.html">
       <img src="images/logo.png" alt="logo" width="80">
     </a>
 
@@ -47,16 +42,16 @@
       <!-- Menu -->
       <ul class="navbar-nav mx-md-auto text-lg-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">Internet <i class="fa fa-angle-down ms-1"></i></a>
+          <a class="nav-link" href="internet.html">Internet <i class="fa fa-angle-down ms-1"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mobile <i class="fa fa-angle-down ms-1"></i></a>
+          <a class="nav-link" href="mobile.html">Mobile <i class="fa fa-angle-down ms-1"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TV & Home <i class="fa fa-angle-down ms-1"></i></a>
+          <a class="nav-link" href="tv.html">TV & Home <i class="fa fa-angle-down ms-1"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Support <i class="fa fa-angle-down ms-1"></i></a>
+          <a class="nav-link" href="support.html">Support <i class="fa fa-angle-down ms-1"></i></a>
         </li>
       </ul>
 
@@ -72,6 +67,7 @@
 </nav>
 
 <div class="green-line"></div>
+
 
 <!-- HERO -->
 <section class="hero">
@@ -100,7 +96,7 @@
       <!-- RIGHT -->
       <div class="col-lg-5 text-start mt-lg-0 mt-5">
         <div class="img-box">
-          <img src="https://assets.cox.com/is/image/coxcommunications/family-sitting-on-couch-in-living-room-looking-at-mobile-devices-with-blue-green-box-in-bg?ts=1769098920175&$teaser$&dpr=off" alt="">
+          <img src="https://assets.cox.com/is/image/coxcommunications/family-sitting-on-couch-in-living-room-looking-at-mobile-devices-with-blue-green-box-in-bg?ts=1769098920175&$teaser$&dpr=off" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -108,9 +104,10 @@
   </div>
 </section>
 
-<!-- BOTTOM -->
+<section>
+    <!-- BOTTOM -->
 <div class="bottom-text fw-bold">
-  <a href="#">Sign in</a>
+  <a href="tel:222222222">Sign in</a>
   or enter your address to check your best available price and speeds
 </div>
 
@@ -127,11 +124,13 @@
 
     <!-- BUTTON -->
     <button class="btn check-btn">
-      Check availability
+        <a href="tel:222222222" class="text-white text-decoration-none">Check availability</a>
+      
     </button>
 
   </div>
 </div>
+</section>
 
 
 <section class="category-section py-5">
@@ -144,7 +143,7 @@
     <div class="row g-3 mt-5">
 
       <!-- CARD 1 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon green">
             <i class="fa-solid fa-mobile-screen"></i>
@@ -154,7 +153,7 @@
       </div>
 
       <!-- CARD 2 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon green">
             <i class="fa-solid fa-user"></i>
@@ -164,7 +163,7 @@
       </div>
 
       <!-- CARD 3 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon blue">
             <i class="fa-solid fa-wifi"></i>
@@ -174,7 +173,7 @@
       </div>
 
       <!-- CARD 4 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon blue">
             <i class="fa-solid fa-signal"></i>
@@ -184,7 +183,7 @@
       </div>
 
       <!-- CARD 5 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon blue">
             <i class="fa-solid fa-layer-group"></i>
@@ -194,7 +193,7 @@
       </div>
 
       <!-- CARD 6 -->
-      <div class="col-md-4 col-lg-2 col-12">
+      <div class="col-lg-2 col-md-6">
         <div class="category-card text-center">
           <div class="icon blue">
             <i class="fa-solid fa-tv"></i>
@@ -207,138 +206,107 @@
   </div>
 </section>
 
-<section class="bundle-section py-5">
-  <div class="container ">
-    <div class="row align-items-center g-0">
 
-      <!-- LEFT IMAGE -->
-      <div class="col-lg-5">
-        <div class="bundle-img"></div>
-      </div>
 
-      <!-- RIGHT CONTENT -->
-      <div class="col-lg-7">
-        <div class="bundle-card">
+<div class="container my-5">
+  <div class="bundle-card d-flex flex-column flex-md-row">
 
-          <p class="eyebrow">Cox Internet & Mobile bundles</p>
-
-          <h2 class="bundle-title">
-            Bundle & save $120/year
-          </h2>
-
-          <p class="bundle-desc">
-            Combine internet and mobile for our best deals and a Price Lock Guarantee up to 5 years.*
-          </p>
-
-          <a href="#" class="btn bundle-btn">
-            Shop bundles
-          </a>
-
-        </div>
-      </div>
-
+    <!-- LEFT SIDE -->
+    <div class="left-side">
+    
+      <img src="https://assets.cox.com/is/image/cox/top-view-of-table-with-laptop-mobile-device-coffee-and-books-save-120-text-top-left-vert?$teaser$" alt="desk">
     </div>
 
-    <!-- FOOTNOTE -->
-    <p class="bundle-note mt-5">
-      *500 Mbps or 1 Gbps speeds with at least 1 unlimited Cox Mobile line required for 3-year lock; 
-      2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. Taxes and fees excluded.
-    </p>
+    <!-- RIGHT SIDE -->
+    <div class="right-side d-flex flex-column justify-content-center">
+      <small class="text-uppercase text-white">Internet & Mobile Bundles</small>
 
-  </div>
-</section>
+      <h2>Bundle & save $120/year</h2>
 
-<section class="offer-section py-5">
-  <div class="container">
-    <div class="row align-items-center g-0">
+      <p>
+        Combine internet and mobile for our best deals and a Price Lock Guarantee up to 5 years.
+      </p>
 
-      <!-- LEFT CONTENT -->
-      <div class="col-lg-6">
-        <div class="offer-card">
-
-          <!-- BADGE -->
-          <span class="offer-badge">Special offer</span>
-
-          <!-- TITLE -->
-          <h2 class="offer-title">
-            Get the TCL 50 LE for just $19.99<span class="small-circle">ø</span>
-          </h2>
-
-          <!-- DESC -->
-          <p class="offer-desc">
-            Bring home a great device at a great price— with instant savings. Offer ends 7/8.
-          </p>
-
-          <!-- BUTTON -->
-          <a href="#" class="btn offer-btn">
-            Shop deal
-          </a>
-
-        </div>
-      </div>
-
-      <!-- RIGHT IMAGE -->
-      <div class="col-lg-6">
-        <div class="offer-img"></div>
-      </div>
-
+      <button class="btn btn-light mt-3"><a href="tel:222222222" class="text-dark text-decoration-none">Shop bundles</a></button>
     </div>
-  </div>
-</section>  
 
-<section class="gig-section py-5">
-  <div class="container">
+  </div>
+
+  <!-- FOOTNOTE -->
+  <p class="mt-3  text-muted">
+    *500 Mbps or 1 Gbps speeds with at least 1 unlimited Cox Mobile line required for 3-year lock; 2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. Taxes and fees excluded.
+  </p>
+
+</div>
+
+
+
+<div class="container my-5 py-5">
+  <div class="bundle-card-2 d-flex flex-column flex-md-row">
+
+    <!-- LEFT SIDE -->
+  
+
+    <!-- RIGHT SIDE -->
+    <div class="right-side-2 d-flex flex-column justify-content-center">
+      <span class="offer-badge">Special offer</span>
+
+      <h2>Get the TCL 50 LE for just $19.99ø</h2>
+
+      <p>
+        Bring home a great device at a great price— with instant savings. Offer ends 7/8.
+      </p>
+
+      <button class="btn-2 btn-light text-white mt-3"><a href="tel:222222222" class="text-white text-decoration-none">Shop deal</a></button>
+    </div>
+
+      <div class="left-side-2">
+    
+      <img src="https://assets.cox.com/is/image/cox/tcl-50-le-in-black-silhouette-front-and-back-slanted-bubbles-and-alice-blue-bg-sq?$teaser$" alt="desk">
+    </div>
+
+  </div>
+
+  <!-- FOOTNOTE -->
+
+</div>
+
+
+<div class="container my-5 py-5">
     <p class="fw-bold">COX SERVICE OFFERINGS</p>
-    <div class="row align-items-center g-0">
+  <div class="bundle-card-3 d-flex flex-column flex-md-row">
 
-      <!-- LEFT IMAGE -->
-      <div class="col-lg-5">
-        <div class="gig-img"></div>
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="col-lg-7">
-        <div class="gig-card">
-
-          <!-- EYEBROW -->
-          <p class="gig-eyebrow">
-            MULTI GIG INTERNET + COX MOBILE
-          </p>
-
-          <!-- TITLE -->
-          <h2 class="gig-title">
-            Do more with Multi GIG internet
-          </h2>
-
-          <!-- DESC -->
-          <p class="gig-desc">
-            Score a 5-year Price Lock Guarantee when you add Cox Mobile to your Multi GIG internet plan. 
-            Plus, unlimited data and wall-to-wall Panoramic Wifi included.
-          </p>
-
-          <p class="gig-speed">
-            2 Gbps download speeds.
-          </p>
-
-          <!-- BUTTON -->
-          <a href="#" class="btn gig-btn">
-            Lock it in
-          </a>
-
-        </div>
-      </div>
-
+    <!-- LEFT SIDE -->
+    <div class="left-side-3">
+    
+      <img src="https://assets.cox.com/is/image/cox/woman-sitting-at-a-desk-in-a-living-room-and-using-laptop-at-home-428958187?$teaser$" alt="desk">
     </div>
 
-    <!-- FOOTNOTE -->
-    <p class="gig-note mt-3">
-      2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. 
-      With at least 1 unlimited Cox Mobile line plus internet speeds of 2 Gpbs. 
-      Taxes and fees excluded.
-    </p>
+    <!-- RIGHT SIDE -->
+    <div class="right-side-3 d-flex flex-column justify-content-center">
+      <p>MULTI GIG INTERNET + COX MOBILE</p>
+
+      <h2>Do more with Multi GIG internet</h2>
+
+      <p>
+      Score a 5-year Price Lock Guarantee when you add Cox Mobile to your Multi GIG internet plan. Plus, unlimited data and wall-to-wall Panoramic Wifi included.
+      </p>
+
+      <button class="btn-3 btn-light text-white mt-3"><a href="tel:222222222" class="text-white text-decoration-none">Lock it in</a></button>
+    </div>
+
+    
 
   </div>
-</section>
+    <!-- FOOTNOTE -->
+  <p class="mt-3  text-muted">
+    2 Gbps for 5-year lock. Mobile speeds reduced after 20 Gigs usage per month. With at least 1 unlimited Cox Mobile line plus internet speeds of 2 Gpbs. Taxes and fees excluded.
+  </p>
+
+  <!-- FOOTNOTE -->
+
+</div>
+
 
 
 <section class="three-card-section py-5">
@@ -360,7 +328,7 @@
             <span>starting at </span><strong>$70/mo.</strong>
           </h4>
 
-          <a href="#" class="btn card-btn">Shop mobile plans</a>
+          <a href="tel:222222222" class="btn card-btn">Shop mobile plans</a>
 
         </div>
       </div>
@@ -380,7 +348,7 @@
             <span>starting at </span><strong>$20/mo</strong>
           </h4>
 
-          <a href="#" class="btn card-btn">Shop TV & streaming</a>
+          <a href="tel:222222222" class="btn card-btn">Shop TV & streaming</a>
 
         </div>
       </div>
@@ -400,7 +368,7 @@
             <span>starting at </span><strong>$20/mo</strong>
           </h4>
 
-          <a href="#" class="btn card-btn">Shop home phone</a>
+          <a href="tel:222222222" class="btn card-btn">Shop home phone</a>
 
         </div>
       </div>
@@ -431,7 +399,7 @@
             <p>
               Over 7 million homes and businesses count on us—including mobile plans that runs on the network with unbeatable 5G reliability.
             </p>
-            <a href="#" class="btn about-btn">Meet Cox</a>
+            <a href="tel:222222222" class="btn about-btn">Meet Cox</a>
           </div>
         </div>
       </div>
@@ -445,7 +413,7 @@
             <p>
               We already deliver affordable internet options to over 1 million qualifying households. Find out more about how our people are giving back.
             </p>
-            <a href="#" class="btn about-btn">About engagement</a>
+            <a href="tel:222222222" class="btn about-btn">About engagement</a>
           </div>
         </div>
       </div>
@@ -459,7 +427,7 @@
             <p>
               We've invested over $100 million in sustainability projects. See what else we’re working on.
             </p>
-            <a href="#" class="btn about-btn">Our sustainability</a>
+            <a href="tel:222222222" class="btn about-btn">Our sustainability</a>
           </div>
         </div>
       </div>
@@ -467,6 +435,8 @@
     </div>
   </div>
 </section>
+
+
 
 <section class="faq-section py-5">
   <div class="container px-md-5 px-3 ">
@@ -570,67 +540,67 @@
     <div class="row">
 
       <!-- Shop -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>Shop</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Internet</a></li>
-          <li><a href="#">Cox Mobile</a></li>
-          <li><a href="#">TV</a></li>
-          <li><a href="#">Smart Home</a></li>
-          <li><a href="#">Home Phone</a></li>
-          <li><a href="#">Bundles</a></li>
+          <li><a href="tel:222222222">Internet</a></li>
+          <li><a href="tel:222222222">Cox Mobile</a></li>
+          <li><a href="tel:222222222">TV</a></li>
+          <li><a href="tel:222222222">Smart Home</a></li>
+          <li><a href="tel:222222222">Home Phone</a></li>
+          <li><a href="tel:222222222">Bundles</a></li>
         </ul>
       </div>
 
       <!-- Common Tasks -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>Common Tasks</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Pay Bill</a></li>
-          <li><a href="#">Manage Account</a></li>
-          <li><a href="#">Check Email</a></li>
-          <li><a href="#">Watch TV</a></li>
-          <li><a href="#">Apps</a></li>
+          <li><a href="tel:222222222">Pay Bill</a></li>
+          <li><a href="tel:222222222">Manage Account</a></li>
+          <li><a href="tel:222222222">Check Email</a></li>
+          <li><a href="tel:222222222">Watch TV</a></li>
+          <li><a href="tel:222222222">Apps</a></li>
         </ul>
       </div>
 
       <!-- Help -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>Help</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Find Store</a></li>
+          <li><a href="tel:222222222">Support</a></li>
+          <li><a href="tel:222222222">Contact</a></li>
+          <li><a href="tel:222222222">Find Store</a></li>
         </ul>
       </div>
 
       <!-- About -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>About</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Learn About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Accessibility</a></li>
+          <li><a href="tel:222222222">Learn About</a></li>
+          <li><a href="tel:222222222">Careers</a></li>
+          <li><a href="tel:222222222">News</a></li>
+          <li><a href="tel:222222222">Accessibility</a></li>
         </ul>
       </div>
 
       <!-- More -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>More</h5>
         <ul class="list-unstyled">
-          <li><a href="#">My Connection</a></li>
-          <li><a href="#">Refer a Friend</a></li>
+          <li><a href="tel:222222222">My Connection</a></li>
+          <li><a href="tel:222222222">Refer a Friend</a></li>
         </ul>
       </div>
 
       <!-- Legal -->
-      <div class="col-md-2 col-12">
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
         <h5>Legal</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Policy</a></li>
-          <li><a href="#">FCC File</a></li>
+          <li><a href="tel:222222222">Privacy</a></li>
+          <li><a href="tel:222222222">Policy</a></li>
+          <li><a href="tel:222222222">FCC File</a></li>
         </ul>
       </div>
 
@@ -643,17 +613,14 @@
       <p>
 © 1998-2026 Cox Communications,Inc.
 </p>
-      <a href="#" class="text-decoration-none text-dark">
+      <a href="tel:222222222" class="text-decoration-none text-dark">
 Limit the Use of My Sensitive Personal Information (CA Consumers)</a> <br>
-      <a href="#" class="text-decoration-none text-dark">
+      <a href="tel:222222222" class="text-decoration-none text-dark">
 Do Not Sell or Share My Personal Information
 </a>
     </div>
 
   </div>
 </footer>
-
-<!-- BOOTSTRAP JS (IMPORTANT) -->
-
 </body>
 </html>
